@@ -5,6 +5,11 @@
     "image": "images/social/github.svg"
   },
   {
+    "name": "Itch.io",
+    "link": "https://itch.io/profile/gigaelk",
+    "image": "images/social/itchio.svg"
+  },
+  {
     "name": "Twitter",
     "link": "https://twitter.com/gigaelk",
     "image": "images/social/twitter.svg"
