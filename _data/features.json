@@ -1,7 +1,7 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Games",
+    "description": "Unity, Unreal, Pure Code.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,19 +9,10 @@
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Software",
+    "description": "Any language you can imagine.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
       "height": 80
     }
