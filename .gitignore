@@ -1,13 +1,22 @@
-# project
+# NPM
+node_modules
+npm-debug.log
+
+# Jekyll
 _site
-.sass-cache
-.vagrant
-
-# general
-.DS_Store
-Thumbs.db
-ehthumbs.db
-
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 Gemfile.lock
+**/Gemfile.lock
 
-beautiful-jekyll-theme-*.gem
+# Temporary files
+tmp
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+.idea
