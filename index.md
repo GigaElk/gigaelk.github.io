@@ -1,13 +1,13 @@
 ---
-title: Jekyll Serif Theme
+title: GigaElk Software
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Official Site for GigaElk Software
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# GigaElk Software
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+This site is currently being renewed. Please be patient.
