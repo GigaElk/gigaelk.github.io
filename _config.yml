@@ -33,9 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: 2022 GigaElk Software
-  location: Location
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -56,7 +54,7 @@ address:
   - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 
 
 # Build settings
 markdown: kramdown
