@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2022-06-01
-img: game.png
+img: ThisWayUpTitleScreen.png
 alt: image-alt
 project-date: June 2022
 client: Start Bootstrap
