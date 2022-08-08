@@ -1,12 +1,15 @@
-<div class='header'>
+<!-- Header -->
+<header>
   <div class="container">
-    <div class="logo">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
+        <div class="intro-text">
+          <span class="name">{{ site.title }}</span>
+          <hr class="star-light" />
+          <span class="skills">{{ site.skills }}</span>
+        </div>
+      </div>
     </div>
-    <div class="logo-mobile">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
   </div>
-</div>
+</header>
