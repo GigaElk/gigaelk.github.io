@@ -1214,6 +1214,9 @@
   content: "\f16c";
 }
 .fa-instagram:before {
+  content: "\f83a";
+}
+.fa-itch-io:before {
   content: "\f16d";
 }
 .fa-flickr:before {
