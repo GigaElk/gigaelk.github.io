@@ -32,26 +32,24 @@ color:
 
 # Footer settings
 footer:
-  copyright: 2022 GigaElk Software
+  copyright: GigaElk Software
   social: Around the Web
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/gigaelk
-  - title: facebook
-    url:
+  - title: instagram
+    url: https://www.instagram.com/gigaelk/
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url:
+    url: https://stackoverflow.com/users/1716792/gigaelk
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/GigaElk
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 
+  - line: 
 
 # Credits content
 credits: 
