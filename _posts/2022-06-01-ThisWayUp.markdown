@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 date: 2022-06-01
 img: ThisWayUpTitleScreen.png
-alt: image-alt
+alt: ThisWayUpTitleScreen
 project-date: June 2022
 client: GameDev.tv GameJam 2022
 category: GameJam
