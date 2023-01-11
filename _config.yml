@@ -59,8 +59,6 @@ credits:
 # Build settings
 markdown: kramdown
 permalink: pretty
-plugins:
-  - jekyll-sitemap
 
 #for posts
 defaults:
