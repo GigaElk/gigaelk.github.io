@@ -1,5 +1,5 @@
 ---
-title: GigaElk Software
+title: GigaElk Software - Indie software & games studio based in Tokyo | Creators of Switch-n-Shakes, Overnumerousness, This Way Up and more!
 layout: home
 description: Official Site for GigaElk Software
 intro_image: "images/illustrations/pointing.svg"
