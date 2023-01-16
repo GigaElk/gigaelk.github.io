@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2022-10-01
-img: OvernumerousnessTitle.png
+img: OvernumerousnessTitle.webp
 alt: Overnumerousness Title
 project-date: October 2022
 client: PC
