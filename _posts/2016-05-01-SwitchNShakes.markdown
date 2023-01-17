@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 date: 2016-05-01
 img: switchnshakes1.webp
-alt: image-alt
+alt: Switch N Shakes 1
 project-date: May 2016
 client: Android
 category: Android
