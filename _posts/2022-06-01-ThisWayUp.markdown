@@ -4,6 +4,7 @@ modal-id: 2
 date: 2022-06-01
 img: ThisWayUpTitleScreen.png
 alt: This Way Up
+imgtitle: This Way Up
 project-date: June 2022
 client: GameDev.tv GameJam 2022
 category: GameJam
