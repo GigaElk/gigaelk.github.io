@@ -361,8 +361,12 @@ footer h3 {
     margin-bottom: 30px;
 }
 
-footer .footer-above .footer-middle{
+footer .footer-above {
     padding-top: 50px;
+    background-color: #{{ site.color.secondary }};
+}
+
+footer .footer-middle {
     background-color: #{{ site.color.secondary }};
 }
 
