@@ -16,5 +16,14 @@
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "NFTs",
+    "description": "Shoebill Bill! A playful homage to the mejestic and bonkers bird.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
   }
 ]
