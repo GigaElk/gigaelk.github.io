@@ -4,14 +4,24 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>NFT</h2>
-                <hr class="star-light">
+                <hr class="star-primary">
             </div>
         </div>
         <span class="intro-text">Check out our first NFT collection! Shoebill Bill - A playful look at the mejestic, and bonkers, bird!</span>
-        <section class="nftembed">
-            <iframe
-                src="https://opensea.io/collection/shoebill-bill?embed=true&ref=0x6bc524533039e8b4fed1c9863478affc1b4f7a23"></iframe>
-        </section>
+        <div class="portfolio-flex-row">
+            {% for post in site.posts %}
+                <div class="portfolio-flex-item portfolio-item">
+                    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" title="{{ post.imgtitle }}">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
         <!-- <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
                 <p>Check out our first NFT collection! Shoebill Bill - A playful look at the mejestic, and bonkers, bird!</p>
