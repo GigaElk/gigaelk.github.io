@@ -486,3 +486,9 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.nftembed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
