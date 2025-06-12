@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 5
+date: 2023-05-29
+img: MrGen.png
+alt: Mr.Gen
+imgtitle: Mr.Gen
+project-date: March 2023
+client: GameDev.tv GameJam 2023
+category: GameJam
+description: A retro game made for the GameDev.tv GameJam 2023. Available for free on Itch.io!
+rawcode: <iframe src="https://itch.io/embed/2082322" width="208" height="167" frameborder="0"><a href="https://gigaelk.itch.io/mr-gen">Mr. Gen by GigaElk</a></iframe>
+---
