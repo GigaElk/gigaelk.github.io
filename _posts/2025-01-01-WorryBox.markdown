@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 8
+date: 2025-01-01
+img: WorryBoxLogoSquare.png
+alt: WorryBox
+imgtitle: WorryBox
+project-date: September 2025
+client: Web Application
+category: Mental Health
+description: Worrybox helps you externalize your concerns, connect with supportive community members, and find peace of mind through shared understanding. Currently in Alpha.
+rawcode: <a href="https://worrybox.gigaelk.com" class="btn btn-primary btn-lg" role="button">Visit WorryBox</a>
+---
