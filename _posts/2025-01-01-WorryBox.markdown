@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 8
-date: 2025-01-01
+date: 2025-09-01
 img: WorryBoxLogoSquare.png
 alt: WorryBox
 imgtitle: WorryBox
