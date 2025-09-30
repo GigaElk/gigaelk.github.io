@@ -8,6 +8,6 @@ imgtitle: WorryBox
 project-date: September 2025
 client: Web Application
 category: Mental Health
-description: Worrybox helps you externalize your concerns, connect with supportive community members, and find peace of mind through shared understanding. Currently in Alpha.
+description: Worrybox helps you externalize your concerns, connect with supportive community members, and find peace of mind through shared understanding. Open-Source project currently in Alpha.
 rawcode: <a href="https://worrybox.gigaelk.com" class="btn btn-primary btn-lg" role="button">Visit WorryBox</a>
 ---
