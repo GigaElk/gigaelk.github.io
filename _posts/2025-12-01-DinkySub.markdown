@@ -5,8 +5,8 @@ date: 2025-12-01
 img: dinkysub.png
 imgtitle: dinkysub
 project-date: December 2025
-client: Saas
-category: Saas
+client: GigaElk Software
+category: Finaince
 description: DinkySub tracks your subscriptions, documents, and renewals in one place. Get reminders for Netflix renewals, passport expirations, license renewals, and more.
 rawcode: <a href="https://dinkysub.com" class="btn btn-primary btn-lg" role="button">DinkySub.com</a>
 ---
