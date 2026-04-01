@@ -1,7 +1,7 @@
 [
   {
     "title": "Games",
-    "description": "Unity, Unreal, Pure Code.",
+    "description": "Unity, Unreal, puzzle games, game jams, interactive installations.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -10,7 +10,7 @@
   },
   {
     "title": "Software",
-    "description": "Any language you can imagine.",
+    "description": "Web apps, APIs, tools, plugins. React, Node.js, Python.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +18,8 @@
     }
   },
   {
-    "title": "NFTs",
-    "description": "Shoebill Bill! A playful homage to the mejestic and bonkers bird.",
+    "title": "Interactive",
+    "description": "Live events, audience participation, sensor games, kiosks.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,

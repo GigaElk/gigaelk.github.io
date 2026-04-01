@@ -1,7 +1,7 @@
 ---
 title: GigaElk
 layout: home
-description: Official Site for GigaElk Software
+description: Indie software & games from Tokyo
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
@@ -10,4 +10,8 @@ show_call_box: true
 
 # GigaElk Software
 
-This site is currently being renewed. Please be patient.
+Indie software & games from Tokyo.
+
+I make things. Games, tools, apps, plugins — whatever catches my interest.
+
+[See my work ↓](#portfolio) | [Hire me →](/services/)
