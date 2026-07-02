@@ -2,12 +2,53 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://gigaelk.com</loc>
-  <lastmod>2024-05-15T09:56:00+09:00</lastmod>
-</url>
-
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://gigaelk.com/</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/celestial-break.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/dinkysub.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/harry-potter-house-pride/</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/matoatte.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/mr-gen.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/odd-job-toolbox.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/overnumerousness.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/shoebill-bill.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/switch-n-shakes.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/this-way-up.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
+  <url>
+    <loc>https://gigaelk.com/visibby.html</loc>
+    <lastmod>2026-07-02</lastmod>
+  </url>
 </urlset>
