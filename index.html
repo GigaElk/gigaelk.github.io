@@ -1,3 +1,682 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N28S7YPB5S"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-N28S7YPB5S');
+    </script>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GigaElk Software - Indie software & games studio in Tokyo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Indie software & games studio based in Tokyo | Creators of Switch-n-Shakes, Overnumerousness, This Way Up and more!">
+    <meta name="keywords" content="GigaElk, Software, Apps, Games, AR, Augmented Reality, VR, Virtual Reality, switch-n-shakes, Overnumerousness, this-way-up, NFT, Shoebill-bill, Shoebill">
+    <meta name="author" content="Hewitt Andrew">
+    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@gigaelk">
+    <meta name="twitter:creator" content="@gigaelk">
+    <meta name="twitter:title" content="GigaElk Software">
+    <meta name="twitter:description" content="Indie software & games studio based in Tokyo">
+    <meta name="twitter:image" content="https://gigaelk.com/img/logo/GigaElkCardImage.webp">
+    <meta name="twitter:image:alt" content="GigaElk Software">
+    
+    <!-- OGP -->
+    <meta property="og:title" content="Indie software & games studio based in Tokyo">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://gigaelk.com/img/logo/GigaElkCardImage.webp">
+    <meta property="og:url" content="https://gigaelk.com">
+    <meta property="og:site_name" content="GigaElk Software">
+    <meta property="og:description" content="Indie software & games studio based in Tokyo | Creators of Switch-n-Shakes, Overnumerousness, This Way Up and more!">
+    
+    <link rel="canonical" href="https://gigaelk.com/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700;400italic;700italic&display=swap" rel="stylesheet">
+    
+    <style>
+    :root {
+        --primary: #1c147f;
+        --primary-rgb: 29, 20, 127;
+        --secondary: #3d0659;
+        --secondary-dark: #3d0659;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #333;
+        overflow-x: hidden;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    a {
+        color: var(--primary);
+        text-decoration: none;
+    }
+    
+    a:hover, a:focus {
+        color: var(--primary);
+        text-decoration: underline;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    header {
+        text-align: center;
+        color: #fff;
+        background: var(--primary);
+        padding: 100px 0 50px;
+    }
+    
+    header img {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 150px;
+        width: 100%;
+    }
+    
+    header .intro-text .name {
+        display: block;
+        text-transform: uppercase;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 2.5em;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    header .intro-text .skills {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+    
+    @media (min-width: 768px) {
+        header {
+            padding: 150px 0 100px;
+        }
+        
+        header .intro-text .name {
+            font-size: 4em;
+        }
+        
+        header .intro-text .skills {
+            font-size: 1.5em;
+        }
+    }
+    
+    section {
+        padding: 100px 0;
+    }
+    
+    @media (max-width: 767px) {
+        section {
+            padding: 75px 0;
+        }
+    }
+    
+    #about {
+        background: var(--primary);
+        color: #fff;
+    }
+    
+    #about h2 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    #portfolio h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    #contact h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    hr.divider {
+        margin: 25px auto 30px;
+        padding: 0;
+        max-width: 250px;
+        border: 0;
+        border-top: solid 5px;
+        text-align: center;
+        overflow: visible;
+    }
+    
+    hr.light {
+        border-color: #fff;
+    }
+    
+    hr.dark {
+        border-color: var(--secondary);
+    }
+    
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 25px;
+        margin-top: 30px;
+    }
+    
+    @media (max-width: 640px) {
+        .portfolio-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    .portfolio-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background: #fff;
+    }
+    
+    .portfolio-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    
+    .portfolio-item img {
+        display: block;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .portfolio-item .item-info {
+        padding: 20px;
+    }
+    
+    .portfolio-item .item-info h3 {
+        margin: 0 0 10px;
+        font-size: 1.3em;
+        color: var(--secondary);
+    }
+    
+    .portfolio-item .item-info p {
+        font-size: 0.95em;
+        margin-bottom: 15px;
+        color: #666;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: var(--primary);
+        color: #fff;
+        border: 2px solid var(--primary);
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-weight: 700;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background: #fff;
+        color: var(--primary);
+        text-decoration: none;
+    }
+    
+    .btn-outline {
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    
+    .btn-outline:hover {
+        background: #fff;
+        color: var(--primary);
+    }
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 700;
+        color: var(--secondary);
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1em;
+        font-family: 'Lato', sans-serif;
+        background: #fff;
+    }
+    
+    .form-control:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.2);
+    }
+    
+    textarea.form-control {
+        resize: vertical;
+        min-height: 120px;
+    }
+    
+    footer {
+        background: var(--secondary);
+        color: #fff;
+        padding: 50px 0 0;
+    }
+    
+    .footer-social {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .footer-social h3 {
+        margin-bottom: 20px;
+    }
+    
+    .social-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .social-links li {
+        display: inline-block;
+    }
+    
+    .btn-social {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    .btn-social:hover {
+        background: #fff;
+        color: var(--secondary);
+        transform: scale(1.1);
+    }
+    
+    .footer-bmc {
+        background: var(--secondary);
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .footer-bmc .bmc-btn {
+        background: #FFDD00;
+        color: #000;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 4px;
+        font-family: 'Cookie', cursive;
+        font-size: 18px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .footer-bmc .bmc-btn:hover {
+        background: #ffcc00;
+    }
+    
+    .footer-below {
+        background: var(--secondary-dark);
+        text-align: center;
+        padding: 25px 0;
+        font-size: 0.9em;
+    }
+    
+    .scroll-top {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        background: var(--primary);
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 1000;
+    }
+    
+    .scroll-top.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        gap: 30px;
+    }
+    
+    @media (min-width: 768px) {
+        .about-content {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="page-top">
+        <div class="container">
+            <img src="img/logo/GigaElkSmallCircle.png" alt="GigaElk Software" title="GigaElk Software" />
+            <div class="intro-text">
+                <span class="name">GigaElk</span>
+                <hr class="divider light">
+                <span class="skills">Indie software & games from Tokyo</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About</h2>
+            <hr class="divider light">
+            <div class="about-content">
+                <p>GigaElk is a one-person indie software studio run from Tokyo, Japan. I make things — games, tools, apps, plugins — whatever catches my interest.</p>
+                <p>20+ years of experience across game development, web applications, interactive systems, and AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <hr class="divider dark">
+            <div class="portfolio-grid">
+                
+                <!-- SwitchNShakes -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/switchnshakes1.webp" alt="Switch N Shakes">
+                    <div class="item-info">
+                        <h3>Switch N Shakes</h3>
+                        <p>Play Switch-N-Shakes, a new type of block puzzle game! Switch the blocks to clear the board, and when the juicer is full shake to shuffle!</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.gigaelk.switchnshakes&hl=en&gl=US" class="btn">Google Play</a>
+                    </div>
+                </div>
+
+                <!-- ThisWayUp -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/ThisWayUpTitleScreen.png" alt="This Way Up">
+                    <div class="item-info">
+                        <h3>This Way Up</h3>
+                        <p>A small game made for the GameDev.tv GameJam 2022. Available for free on Itch.io!</p>
+                        <a href="https://gigaelk.itch.io/this-way-up" class="btn">Itch.io</a>
+                    </div>
+                </div>
+
+                <!-- Overnumerousness -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/OvernumerousnessTitle.webp" alt="Overnumerousness">
+                    <div class="item-info">
+                        <h3>Overnumerousness</h3>
+                        <p>A work in progress puzzle game. Count your steps and move only within your means. Checkout the demo on Itch.io!</p>
+                        <a href="https://gigaelk.itch.io/overnumerousness" class="btn">Itch.io</a>
+                    </div>
+                </div>
+
+                <!-- ShoebillBill -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/ShoebillBillLogo_NoWatermark_Small.png" alt="Shoebill Bill">
+                    <div class="item-info">
+                        <h3>Shoebill Bill</h3>
+                        <p>Meet Bill, a playful homage to the majestic Shoebill Stalk. This fun digital collection captures the grandeur and strangeness of the elusive bird.</p>
+                        <a href="https://opensea.io/collection/shoebill-bill" class="btn">OpenSea</a>
+                    </div>
+                </div>
+
+                <!-- MrGen -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/MrGen.png" alt="Mr.Gen">
+                    <div class="item-info">
+                        <h3>Mr. Gen</h3>
+                        <p>A retro game made for the GameDev.tv GameJam 2023. Available for free on Itch.io!</p>
+                        <a href="https://gigaelk.itch.io/mr-gen" class="btn">Itch.io</a>
+                    </div>
+                </div>
+
+                <!-- OddJobToolbox -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/ODDJOB.png" alt="Odd Job Toolbox">
+                    <div class="item-info">
+                        <h3>Odd Job Toolbox</h3>
+                        <p>The Odd Job Toolbox is a collection of versatile and user-friendly Unity scripts designed to address unconventional use cases often encountered in kiosks, live events, trade shows, and beyond.</p>
+                        <a href="https://assetstore.unity.com/packages/tools/utilities/oddjobtoolbox-318119" class="btn">Unity Asset Store</a>
+                    </div>
+                </div>
+
+                <!-- CelestialBreak -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/CelestialBreak.png" alt="Celestial Break">
+                    <div class="item-info">
+                        <h3>Celestial Break</h3>
+                        <p>A simple game made for the GameDev.tv GameJam 2025. Available for free on Itch.io!</p>
+                        <a href="https://gigaelk.itch.io/celestial-break" class="btn">Itch.io</a>
+                    </div>
+                </div>
+
+                <!-- DinkySub -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/dinkysub.png" alt="DinkySub">
+                    <div class="item-info">
+                        <h3>DinkySub</h3>
+                        <p>DinkySub tracks your subscriptions, documents, and renewals in one place. Get reminders for Netflix renewals, passport expirations, license renewals, and more.</p>
+                        <a href="https://dinkysub.com" class="btn">DinkySub.com</a>
+                    </div>
+                </div>
+
+                <!-- WorryBox -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/WorryBoxLogoSquare.png" alt="WorryBox">
+                    <div class="item-info">
+                        <h3>WorryBox</h3>
+                        <p>Worrybox helps you externalize your concerns, connect with supportive community members, and find peace of mind through shared understanding. Open-Source project currently in Alpha.</p>
+                        <a href="https://worrybox.gigaelk.com" class="btn">Visit WorryBox</a>
+                    </div>
+                </div>
+
+                <!-- Visibby -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/game.png" alt="Visibby">
+                    <div class="item-info">
+                        <h3>Visibby</h3>
+                        <p>Interactive realtime system for live events. Enables real-time audience interaction and engagement for streaming and live presentations.</p>
+                        <a href="#" class="btn">Coming Soon</a>
+                    </div>
+                </div>
+
+                <!-- Matoatte -->
+                <div class="portfolio-item">
+                    <img src="img/portfolio/circus.png" alt="Matoatte">
+                    <div class="item-info">
+                        <h3>Matoatte</h3>
+                        <p>LIDAR sensor + projector game system with 4 games. An innovative interactive installation combining physical movement with digital gameplay.</p>
+                        <a href="#" class="btn">Coming Soon</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <hr class="divider dark">
+            <form action="https://formspree.io/f/xbjbjrkz" method="POST">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="text" name="_gotcha" style="display:none">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="_replyto" id="email" class="form-control" placeholder="Email Address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-social">
+            <div class="container">
+                <h3>Around the Web</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://itch.io/profile/gigaelk" class="btn-social" title="Itch.io">
+                            <i class="fab fa-itch-io"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/gigaelk" class="btn-social" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/gigaelk/" class="btn-social" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/1716792/gigaelk" class="btn-social" title="Stack Overflow">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/GigaElk" class="btn-social" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ko-fi.com/gigaelk" class="btn-social" title="Ko-fi">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.patreon.com/cw/u82058192" class="btn-social" title="Patreon">
+                            <i class="fab fa-patreon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bmc">
+            <div class="container">
+                <a href="https://buymeacoffee.com/gigaelk" class="bmc-btn">
+                    <img src="https://cdn.buymeacoffee.com/widget/static/button-icon.svg" alt="" width="20">
+                    Buy me a coffee
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-below">
+            <div class="container">
+                Copyright &copy; GigaElk Software 2026
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <a href="#page-top" class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script>
+    // Scroll to top button
+    const scrollTop = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollTop.classList.add('visible');
+        } else {
+            scrollTop.classList.remove('visible');
+        }
+    });
+    
+    scrollTop.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+</body>
+</html>
