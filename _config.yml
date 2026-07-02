@@ -2,8 +2,8 @@
 title: GigaElk
 email: gigaelk@gmail.com
 url: https://gigaelk.com
-description: "Indie software & games studio based in Tokyo | Creators of Switch-n-Shakes, Overnumerousness, This Way Up and more!"
-keywords: "GigaElk, Software, Apps, Games, AR, Augmented Reality, VR, Virtual Reality, switch-n-shakes, Overnumerousness, this-way-up, NFT, Shoebill-bill, Shoebill"
+description: "Independent developer specializing in video games, software, and immersive experiences. Creator of Switch-n-Shakes, Overnumerousness, and This Way Up."
+keywords: "GigaElk, Software, Apps, Games, Indie Games, Tokyo, Game Developer, Unity, AR, VR, Switch-n-Shakes, Overnumerousness, This Way Up"
 skills: "Indie Software & Games from Tokyo | AR | VR | NFT"
 meta_author: Hewitt Andrew
 
@@ -51,6 +51,8 @@ social:
     url: https://ko-fi.com/gigaelk
   - title: patreon
     url: https://www.patreon.com/cw/u82058192
+  - title: linkedin
+    url: https://www.linkedin.com/in/gigaelk
 
 # Postal address (add as many lines as necessary)
 address:
