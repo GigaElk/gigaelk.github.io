@@ -1,4 +1,16 @@
+# GigaElk - robots.txt
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Allow: /
+
+# Sitemaps
 Sitemap: https://gigaelk.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
+
+# Don't crawl private/admin areas
+Disallow: /private/
+Disallow: /admin/
+Disallow: /_services/
+Disallow: /.git/
+Disallow: /.qodo/
